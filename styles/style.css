@@ -1,0 +1,94 @@
+header {
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgb(221, 208, 232);
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 18px;
+  color: #5968f4;
+}
+
+.logo {
+  display: none !important;
+  color: #5968f4;
+  font-size: 25px;
+}
+
+form {
+  display: flex;
+  gap: 20px;
+}
+
+.container {
+  max-width: 1150px;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+textarea {
+  width: 756px;
+  height: 298px;
+  background-color: #f8f8f8;
+  border: 2px solid #d4d3d34d;
+  color: #99999a;
+}
+
+input {
+  width: 370px;
+  height: 59px;
+  background-color: #f8f8f8;
+  border: 2px solid #d4d3d34d;
+  color: #99999a;
+}
+
+button {
+  height: 59px;
+  width: 370px;
+  border: 2px solid #5968f4;
+  background-color: #5968f4;
+  color: white;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* ////////////////////////// */
+
+.contact_icon {
+  width: 68px;
+  height: 68px;
+  border-radius: 50%;
+  background-color: #5968f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+i {
+  font-size: 30px;
+  color: #344188;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.contacts {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
